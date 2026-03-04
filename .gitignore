@@ -3,3 +3,8 @@
 tmp*
 *.json
 *.swp
+*.h5
+*.png
+log
+cfg
+wire-cell-cfg
