@@ -5,6 +5,7 @@ tmp*
 *.swp
 *.h5
 *.png
+*.db
 log
 cfg
 wire-cell-cfg
