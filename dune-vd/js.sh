@@ -20,6 +20,10 @@ if [[ $1 == "json" || $1 == "all" ]]; then
         --ext-str files_fields="dunevd-resp-isoc3views-18d92.json.bz2" \
         --ext-str files_noise="dunevd10kt-1x6x6-3view30deg-noise-spectra-v1.json.bz2" \
         --ext-str files_wires="dunevd10kt_3view_30deg_v3_refactored_1x8x6ref.json.bz2" \
+        --ext-str geo_planeid_labels="dunevd_3view" \
+        --ext-str engine="TbbFlow" \
+        --ext-str process_mode="single-sim-sp" \
+        --ext-code process_apa_index=0 \
         --ext-code DL=4 \
         --ext-code DT=8.8 \
         --ext-code G4RefTime=0 \
